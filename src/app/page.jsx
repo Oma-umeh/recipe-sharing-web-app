@@ -1,4 +1,7 @@
+
+
 import Recipe from "./components/Recipe"
+
 
 
 export const data = [
@@ -513,8 +516,11 @@ export const data = [
 
 
 export default function page() {
+ 
+ 
   return (
-    <main>
+    <main className="">
+      
       <Recipe recipe={data} />
     </main>
   )
