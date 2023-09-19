@@ -1,7 +1,6 @@
-
 export const metadata = {
-    title: 'about us',
-    description: 'Discover more about us',
+    title: 'sign up',
+    description: 'Register with us',
 }
 
 

@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (max-width: 767px) {
+  /* Your CSS styles for mobile screens go here */
+  .embla__slide img{
+    width: 100%;
+    height: 400px;
+  }
+}
+
 .embla {
     overflow: hidden;
   }
@@ -14,7 +22,7 @@
   }
   .embla__slide img{
     width: 100%;
-    height: 600px;
+    height: 700px;
   }
 
   

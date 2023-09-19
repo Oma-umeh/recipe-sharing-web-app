@@ -19,8 +19,8 @@ export const EmblaCarousel = () => {
       <div className="embla__container">
         <div className="embla__slide"> <Image src='/back2.jpg' alt='swipe' width={700} height={600}/></div>
         <div className="embla__slide"> <Image src='/back2.jpg' alt='swipe' width={700} height={600}/></div>
-        {/* <div className="embla__slide"> <Image src='/back4.jpg' alt='swipe' width={700} height={600}/></div> */}
-        {/* <div className="embla__slide"> <Image src='/back4.jpg' alt='swipe' width={700} height={600}/></div> */}
+        <div className="embla__slide"> <Image src='/back2.jpg' alt='swipe' width={700} height={600}/></div>
+        <div className="embla__slide"> <Image src='/back2.jpg' alt='swipe' width={700} height={600}/></div>
       </div>
     </div>
   )
