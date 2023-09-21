@@ -38,7 +38,7 @@ export const ProductCard = ({ recipe }) => {
     <>
 
       <section key={recipe.id} className="w-full max-w-xs  overflow-hidden bg-white shadow-lg rounded-lg cursor-pointer">
-        <Image src={recipe.image} alt={recipe.name} className=" w-[100%] h-[250px] hover:scale-110 duration-100 " width={300} height={300} />
+         <Image src={recipe.image} alt={recipe.name} className=" w-[100%] h-[250px] hover:scale-110 duration-100" width={300} height={300} />
         <div className="p-4">
           <div className='flex items-center justify-between'>
             <h2 className="text-xl font-extrabold text-red-950">{recipe.name}</h2>

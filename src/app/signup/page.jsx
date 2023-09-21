@@ -8,7 +8,7 @@ export default function page() {
         <div className='container mx-auto'>
             <div className='flex flex-col lg:flex-row w-8/12 bg-white rounded-xl mx-auto shadow-lg overflow-hidden'>
                 <div className='w-full lg:w-1/2'> 
-                <Image src='/signup.jpg' alt='signup_image' width={300} height={300} className='h-[510px] w-[500px]'/>
+                <Image src='/signup.jpg' alt='signup_image' width={300} height={300} className='h-[512px] w-[500px]'/>
                 </div>
                 <div className='w-full lg:w-1/2 py-16 px-12'>
                     <h2 className='text-2xl font-extrabold text-orange-600 mb-4'>Sign Up</h2>

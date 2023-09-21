@@ -13,13 +13,11 @@ export default function page() {
           <p className='text-sm mt4 text-orange-900'>If you're already a member, login</p>
           <form action="" className='flex flex-col gap-4'>
           <input type="text" name='email' placeholder='Email' className='p-2 mt-8 rounded-md border outline-none'/>
-          <div className=''>
+          <div className='relative'>
           <input type="text" name='pwd' placeholder='Password'className='p-2 rounded-md border w-full outline-none'/>
           <AiOutlineEye className='absolute top-1/2 right-3 -translate-y-1/2 text-gray-400'/>
           </div>
-          {/* <Link href='/'> */}
           <button className='bg-orange-700 rounded-xl text-white py-2 hover:scale-105 duration-300'>Login</button>
-          {/* </Link> */}
           </form>
           <div className='mt-10 grid grid-cols-3 text-gray-500'>
             <hr className='border-gray-500'/>
