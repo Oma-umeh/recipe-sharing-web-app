@@ -1,12 +1,5 @@
-
-
 import Recipe from "./components/Recipe"
 
-export const metadata = {
-  title: 'Nigerian Recipe',
-  description: 'Recipe App for all kinds of Nigerian food recipe',
-  keywords: 'food, recipe, Nigerian Recipe'
-}
 
 export const data = [
     {
