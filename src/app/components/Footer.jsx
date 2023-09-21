@@ -50,13 +50,13 @@ export default function Footer() {
             <BsArrowRight />
          </div>
 
-          <div className="flex justify-center py-4 gap-2 text-2xl text-slate-900">
-          <AiOutlineFacebook  className="bg-white rounded-full p-1 hover:text-blue-700"/>
-          <AiOutlineInstagram  className="bg-white rounded-full p-1 hover:text-blue-700"/>
-          <AiOutlineTwitter  className="bg-white rounded-full p-1 hover:text-blue-700"/>
-          <AiOutlineYoutube  className="bg-white rounded-full p-1 hover:text-blue-700"/>
-          <AiOutlineGooglePlus  className="bg-white rounded-full p-1 hover:text-blue-700"/>
-          <AiOutlineLinkedin className="bg-white rounded-full p-1 hover:text-blue-700" />
+          <div className="flex justify-center py-4 gap-2 text-2xl text-blue-700">
+          <AiOutlineFacebook  className="bg-white rounded-full p-1  hover:text-blue-900"/>
+          <AiOutlineInstagram  className="bg-white rounded-full p-1  hover:text-blue-900"/>
+          <AiOutlineTwitter  className="bg-white rounded-full p-1  hover:text-blue-900"/>
+          <AiOutlineYoutube  className="bg-white rounded-full p-1  hover:text-blue-900"/>
+          <AiOutlineGooglePlus  className="bg-white rounded-full p-1  hover:text-blue-900"/>
+          <AiOutlineLinkedin className="bg-white rounded-full p-1  hover:text-blue-900" />
           </div>
         </div>
         </section>
