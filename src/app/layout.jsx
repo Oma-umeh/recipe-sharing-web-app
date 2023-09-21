@@ -8,11 +8,6 @@ import Sidebar from './components/Sidebar'
 
 const inter = Poppins({ subsets: ['latin'], weight: ['400'] })
 
-export const metadata = {
-  title: 'Nigerian Recipe',
-  description: 'Recipe App for all kinds of Nigerian food recipe',
-  keywords: 'food, recipe, Nigerian Recipe'
-}
 
 export default function RootLayout({ children }) {
   const [showMenu, setShowMenu] = useState(false)
