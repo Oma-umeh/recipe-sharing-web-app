@@ -1,4 +1,5 @@
 
+import Image from 'next/image'
 import Link from 'next/link'
 import {AiOutlineEye} from 'react-icons/ai'
 import {FcGoogle} from 'react-icons/fc'
@@ -7,7 +8,7 @@ export default function page() {
   return (
     <section className='bg-gray-50 min-h-screen flex items-center justify-center py-40'>
       <div className='bg-gray-100 flex rounded-2xl py-5 item-center shadow-2xl'>
-        <div className='w-1/2 p-1 md:block hidden'> <img src="/login10.jpg" alt="login_image" className='rounded-2xl'/></div>
+        <div className='w-1/2 p-1 md:block hidden'> <Image src="/login10.jpg" alt="login_image" className='rounded-2xl' width={300} height={300}/></div>
         <div className='md:w-1/2 px-16'>
           <h2 className='font-extrabold text-2xl text-orange-900'>Login</h2>
           <p className='text-sm mt4 text-orange-900'>If you're already a member, login</p>

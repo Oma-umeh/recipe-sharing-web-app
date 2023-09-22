@@ -1,8 +1,6 @@
 import Recipe from "./components/Recipe"
 
 
-
-
 export const data = [
     {
       "id": 1,
