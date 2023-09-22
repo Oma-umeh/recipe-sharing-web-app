@@ -35,10 +35,10 @@ export default function Footer() {
 
         <div className="">
           <ul>
-            <li className='hover:text-blue-700 text-xs cursor-pointer py-2'>All Recipes</li>
             <li className='hover:text-blue-700 text-xs cursor-pointer py-2'>Main Dishes</li>
             <li className='hover:text-blue-700 text-xs cursor-pointer py-2'>Side Dishes</li>
             <li className='hover:text-blue-700 text-xs cursor-pointer py-2'>Snack</li>
+            <li className='hover:text-blue-700 text-xs cursor-pointer py-2'>Soup</li>
           </ul>
         </div>
 
