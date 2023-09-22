@@ -10,7 +10,7 @@ import { EmblaCarousel } from './Carousel'
 export default function Recipe({ recipe }) {
 
   const myRecipe = recipe.map(pro => (
-    <ProductCard recipe={pro} />
+    <ProductCard key={pro.id} recipe={pro} />
   ))
   return (
     <>
@@ -35,9 +35,9 @@ export default function Recipe({ recipe }) {
 export const ProductCard = ({ recipe }) => {
 
   return (
-    <>
+    <div >
 
-      <section key={recipe.id} className="w-full max-w-xs  overflow-hidden bg-white shadow-lg rounded-lg cursor-pointer">
+      <section  className="w-full max-w-xs  overflow-hidden bg-white shadow-lg rounded-lg cursor-pointer">
          <Image src={recipe.image} alt={recipe.name} className=" w-[100%] h-[250px] hover:scale-110 duration-100" width={300} height={300} />
         <div className="p-4">
           <div className='flex items-center justify-between'>
@@ -55,7 +55,7 @@ export const ProductCard = ({ recipe }) => {
           </div>
         </div>
       </section>
-    </>
+    </div>
 
   );
 };

@@ -11,7 +11,7 @@ export default function page() {
         <div className='w-1/2 p-1 md:block hidden'> <Image src="/login10.jpg" alt="login_image" className='rounded-2xl' width={300} height={300}/></div>
         <div className='md:w-1/2 px-16'>
           <h2 className='font-extrabold text-2xl text-orange-900'>Login</h2>
-          <p className='text-sm mt4 text-orange-900'>If you're already a member, login</p>
+          <p className='text-sm mt4 text-orange-900'>If you are already a member, login</p>
           <form action="" className='flex flex-col gap-4'>
           <input type="text" name='email' placeholder='Email' className='p-2 mt-8 rounded-md border outline-none'/>
           <div className='relative'>
@@ -31,7 +31,7 @@ export default function page() {
           </button>
           <div className='mt-5 text-xs  border-b border-gray-500 py-4 text-orange-900 cursor-pointer'>Forgot your password?</div>
           <div className='mt-3 text-xs flex justify-between items-center text-orange-900'>
-            <p>If you don't have an account...</p>
+            <p>If you don&apos;t have an account...</p>
             <Link href='/signup'>
             <button className='py-2 px-5 bg-white border rounded-xl hover:scale-110 duration-300'>SignUp</button>
             </Link>

@@ -516,8 +516,7 @@ export default function page() {
  
  
   return (
-    <main className="">
-      
+    <main>
       <Recipe recipe={data} />
     </main>
   )
