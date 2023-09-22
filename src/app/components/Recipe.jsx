@@ -47,7 +47,7 @@ export const ProductCard = ({ recipe }) => {
               <span className="text-gray-600"></span>
             </div>
           </div>
-            <p className='text-red-950 text-lg font-semibold'>{recipe.type}</p>
+            <p className='text-red-950 text-sm font-semibold'>{recipe.type}</p>
 
           <div className="w-full mt-4 font-bold">
 
