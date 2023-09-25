@@ -13,7 +13,9 @@ export default function Navbar({showMenu, setShowMenu, handleClick}) {
           <div className="md:hidden block px-5" onClick={handleClick}>
             {showMenu ? <AiOutlineClose size={34} /> : <GiHamburgerMenu size={34} />}
           </div>
+          <Link href='/'>
           <Image src="/logo.png" alt="Logo" className="cursor-pointer" width={120} height={120}/>
+          </Link>
         </div>
         <div className="hidden md:flex flex-row space-x-10 px-7">
           <Link href='/'>

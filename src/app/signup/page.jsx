@@ -4,17 +4,17 @@ import React from 'react'
 
 export default function page() {
   return (
-    <section className='min-h screen py-40 bg-slate-50'>
-        <div className='container mx-auto'>
-            <div className='flex flex-col lg:flex-row w-8/12 bg-white rounded-xl mx-auto shadow-lg overflow-hidden'>
-                <div className='w-full lg:w-1/2'> 
-                <Image src='/signup.jpg' alt='signup_image' width={300} height={300} className='h-[512px] w-[500px]'/>
+    <section className='min-h screen flex items-center justify-center pt-40 pb-20 md:py-40 bg-slate-50'>
+        
+            <div className='flex items-center justify-center bg-white rounded-xl shadow-lg overflow-hidden'>
+                <div className='w-1/2 p-1 md:block hidden'> 
+                <Image src='/signup.jpg' alt='signup_image' width={300} height={300} className='h-[512px] w-[500px] rounded-l-xl'/>
                 </div>
-                <div className='w-full lg:w-1/2 py-16 px-12'>
+                <div className='md:w-1/2 py-16 px-12'>
                     <h2 className='text-2xl font-extrabold text-orange-600 mb-4'>Sign Up</h2>
                     <p className='mb-4 text-sm text-slate-400'>Create Account</p>
                     <form action="">
-                        <div className='grid grid-cols-2 gap-6'>
+                        <div className='grid md:grid-cols-2 gap-6'>
                             <input type="text" name='fnm' placeholder='Firstname' className='border border-slate-300 rounded-md outline-none py-1 px-2' />
                             <input type="text" name='snm' placeholder='Surname' className='border border-slate-300 rounded-md outline-none py-1 px-2' />
                         </div>
@@ -39,7 +39,6 @@ export default function page() {
                     </form>
                 </div>
             </div>
-        </div>
     </section>
   )
 }

@@ -66,15 +66,14 @@ export const data = [
     },
     {
       "id": 3,
-      "name": "Pounded Yam and Egusi Soup",
-      "type": "Main Dish",
-      "image": "/pounded_yam_egusi_soup.jpg",
+      "name": "Egusi Soup",
+      "type": "Soup",
+      "image": "/egusi_soup.jpg",
       "ingredients": [
-        "Pounded yam flour",
         "Egusi seeds (melon seeds)",
         "Assorted meats and fish",
         "Palm oil",
-        "Leafy vegetables (spinach, bitter leaf, etc.)",
+        "Leafy vegetables (ugu or spinach)",
         "Ground crayfish",
         "Ground pepper",
         "Onions",
@@ -85,12 +84,11 @@ export const data = [
         "Cook assorted meats and fish until tender.",
         "Roast egusi seeds and grind into a paste.",
         "Heat palm oil in a pot, sauté onions.",
-        "Add ground egusi and fry for a few minutes.",
-        "Add stock, meats, ground crayfish, and pepper.",
-        "Simmer and allow egusi to thicken the soup.",
-        "Add leafy vegetables and adjust seasoning.",
-        "Prepare pounded yam as a starchy side.",
-        "Serve soup with pounded yam."
+        "Add ground crayfish, pepper, and stock cubes.",
+        "Add cooked meats and fish, stir well.",
+        "Add egusi paste and simmer to thicken.",
+        "Stir in leafy vegetables and adjust seasoning.",
+        "Serve with fufu or swallow."
       ]
     },
     {
@@ -483,32 +481,29 @@ export const data = [
     },
     {
       "id": 20,
-      "name": "Egusi Soup",
-      "type": "Soup",
-      "image": "/egusi_soup.jpg",
+      "name": "Beans and Plantain",
+      "type": "Main Dish",
+      "image": "/beans_and_plantain.jpg",
       "ingredients": [
-        "Egusi seeds (melon seeds)",
-        "Assorted meats and fish",
-        "Palm oil",
-        "Leafy vegetables (ugu or spinach)",
-        "Ground crayfish",
-        "Ground pepper",
-        "Onions",
-        "Stock cubes",
-        "Salt to taste"
+        "2 cups black-eyed peas",
+        "2 ripe plantains",
+        "1 onion, chopped",
+        "2-3 hot peppers (scotch bonnet or habanero)",
+        "Salt to taste",
+        "Oil for frying"
       ],
       "instructions": [
-        "Cook assorted meats and fish until tender.",
-        "Roast egusi seeds and grind into a paste.",
-        "Heat palm oil in a pot, sauté onions.",
-        "Add ground crayfish, pepper, and stock cubes.",
-        "Add cooked meats and fish, stir well.",
-        "Add egusi paste and simmer to thicken.",
-        "Stir in leafy vegetables and adjust seasoning.",
-        "Serve with fufu or swallow."
+        "Soak black-eyed peas for a few hours or overnight.",
+        "Blend soaked peas with hot peppers and onions.",
+        "Peel and slice plantains.",
+        "Heat oil in a pan for frying.",
+        "Scoop bean mixture and plantains into the oil.",
+        "Fry until golden brown and crispy.",
+        "Serve as a main dish or snack."
       ]
     }
   ]
+
 
 
 

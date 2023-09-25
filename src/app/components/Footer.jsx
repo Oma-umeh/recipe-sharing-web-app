@@ -6,7 +6,7 @@ import { BsArrowRight, BsEnvelope } from "react-icons/bs"
 export default function Footer() {
   return (
     <footer className="bg-orange-600">
-      <section className="text-white grid md:flex md:flex-row justify-between py-10 px-[100px]">
+      <section className="text-white grid md:flex md:flex-row justify-between py-10 pl-[26px] md:px-[100px]">
         <div className="">
           <ul className="">
             <Link href='/'>
