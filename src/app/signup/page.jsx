@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function page() {
   return (
-    <section className='min-h screen flex items-center justify-center pt-40 pb-20 md:py-40 bg-slate-50'>
+    <section className='min-h screen flex items-center justify-center pt-40 pb-20 bg-slate-50'>
         
             <div className='flex items-center justify-center bg-white rounded-xl shadow-lg overflow-hidden'>
                 <div className='w-1/2 p-1 md:block hidden'> 

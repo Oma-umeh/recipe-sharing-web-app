@@ -34,9 +34,6 @@ export default function Recipe({ recipe }) {
 
 
 export const ProductCard = ({ recipe }) => {
-  const handleClick = () => {
-    
-  }
 
   return (
     <div >
@@ -52,9 +49,7 @@ export const ProductCard = ({ recipe }) => {
             </div>
           </div>
             <p className='text-red-950 text-xs font-semibold'>{recipe.type}</p>
-
           <div className="w-full mt-4 font-bold">
-
             <Button text={'View Recipe'} color={'bg-slate-300'} path={`/recipe/${recipe.id}`} />
           </div>
         </div>

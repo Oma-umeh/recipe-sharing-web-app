@@ -38,7 +38,7 @@ export default function Recipe() {
               type='text'
               name='search'
               id='search'
-              placeholder='Search for recipe'
+              placeholder='Search for recipe by name or category'
               className='w-full md:w-[500px] lg:w-[600px] xl:w-[700px] flex outline-none border-b-4 border-red-900'
               value={searchRecipe}
               onChange={handleSearchChange}

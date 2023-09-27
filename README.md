@@ -1,6 +1,5 @@
 # Recipe Application
-A simple recipe application built with HTML, CSS, Tailwind CSS, and React.
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`].
+A simple recipe application built with Tailwind CSS and React.
 
 ## Table of Contents
 
@@ -19,9 +18,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Click on "Contact" to view or contact details.
 - Click on "Login/Signup" to login.
 - Click on "SignUp" to signup.
-- Add new recipes.
-- Edit existing recipes.
-- Delete recipes.
 
 ## Installation
 
@@ -35,6 +31,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
    Install dependencies:
     npm install
+            FOR CONTRIBUTION
 
 ## Usage
 
@@ -47,11 +44,8 @@ bash..
 
 ## Technologies used
 
-- HTML
-- CSS
 - Tailwind CSS Version 3.3.3
 - Nextjs Version 13.4.19.
 - Embla Carousel Version 8.0.
-- React Version 18.2.0
 - React Icons Version ^4.10.1
 

@@ -7,11 +7,11 @@ export default function Page() {
           <p>Delicious, Made Easy</p>
         </div>
         <div className='text-lg lg:text-xl font-semibold w-full lg:w-1/2'>
-          <p>These days, it only takes a quick Google search or Instagram browse to find incredible food inspiration. But often, these drool-worthy recipes come with ingredients lists and cook times that’ll have your eyes water instead. It can feel pretty overwhelming.
+          <p>These days, it only takes a quick Google search or Instagram browse to find incredible food inspiration. But often, these drool-worthy recipes come with ingredients lists and instructions that’ll have your eyes water instead. It can feel pretty overwhelming.
 
             That’s why we created MyRecipes. It’s your one-stop destination for no-fuss, super-delicious recipes that are as much fun to prepare as they are to devour!
 
-            Every recipe features clever time-saving techniques and trusted Nestle products. Which means you can deliver maximum wow-factor with a minimum time spent in the kitchen.
+            Every recipe features instructions that are clever time-saving and trusted to produce deliciousness at the end. Which means you can deliver maximum wow-factor with a minimum time spent in the kitchen.
           </p>
         </div>
       </div>
