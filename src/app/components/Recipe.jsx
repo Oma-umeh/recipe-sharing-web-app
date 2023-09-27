@@ -38,7 +38,7 @@ export const ProductCard = ({ recipe }) => {
   return (
     <div >
 
-      <section  className="w-full max-w-xs  overflow-hidden bg-white shadow-lg rounded-lg cursor-pointer">
+      <section  className="w-full overflow-hidden bg-white shadow-lg rounded-lg cursor-pointer">
          <Image src={recipe.image} alt={recipe.name} title={`${recipe.name} is a ${recipe.type}`} className=" w-[100%] h-[250px] hover:scale-110 duration-100" width={300} height={300} />
         <div className="p-4">
           <div className='flex items-center justify-between'>

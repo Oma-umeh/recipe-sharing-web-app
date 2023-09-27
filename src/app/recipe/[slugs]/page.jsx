@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { recipeData } from '../../Shared'
+import {BsArrowRight} from "react-icons/bs"
 
 export default function Page({ params }) {
   const recipe = recipeData.find(pro => pro.id == +(params.slugs))
@@ -10,8 +11,15 @@ export default function Page({ params }) {
         <h1 className='text-xl md:text-2xl lg:text-3xl font-extrabold'>{recipe.name}</h1>
         <Image src={recipe.image} alt={recipe.name} width={300} height={300} className='h-[300px] w-[300px] rounded-md' />
         <p className='text-sm md:text-base'>Category: {recipe.type}</p>
-        <p className='text-sm md:text-base'>Ingredients: {recipe.ingredients}</p>
-        <p className='text-sm md:text-base'>Instruction: {recipe.instructions}</p>
+        <ol className='text-sm md:text-base'>Ingredients: {recipe.ingredients.map(ingredient=>(
+          <li>{ingredient}</li>
+        ))}</ol>
+        <ul className='text-sm md:text-base'>Instruction: {recipe.instructions.map(instruction=>(
+          <li className='flex items-center space-x-2'>
+            <BsArrowRight />
+            <span>{instruction}</span>
+          </li>
+        ))}</ul>
       </div>
     </section>
   )

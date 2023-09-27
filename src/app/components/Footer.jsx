@@ -51,12 +51,12 @@ export default function Footer() {
          </div>
 
           <div className="flex justify-center py-4 gap-2 text-2xl text-gray-600">
-          <AiOutlineFacebook  className="bg-white rounded-full p-1  hover:text-blue-700"/>
-          <AiOutlineInstagram  className="bg-white rounded-full p-1  hover:text-blue-700"/>
-          <AiOutlineTwitter  className="bg-white rounded-full p-1  hover:text-blue-700"/>
-          <AiOutlineYoutube  className="bg-white rounded-full p-1  hover:text-blue-700"/>
-          <AiOutlineGooglePlus  className="bg-white rounded-full p-1  hover:text-blue-700"/>
-          <AiOutlineLinkedin className="bg-white rounded-full p-1  hover:text-blue-700" />
+          <AiOutlineFacebook  className="bg-white rounded-full p-1  hover:text-blue-700 cursor-pointer"/>
+          <AiOutlineInstagram  className="bg-white rounded-full p-1  hover:text-blue-700 cursor-pointer"/>
+          <AiOutlineTwitter  className="bg-white rounded-full p-1  hover:text-blue-700 cursor-pointer"/>
+          <AiOutlineYoutube  className="bg-white rounded-full p-1  hover:text-blue-700 cursor-pointer"/>
+          <AiOutlineGooglePlus  className="bg-white rounded-full p-1  hover:text-blue-700 cursor-pointer"/>
+          <AiOutlineLinkedin className="bg-white rounded-full p-1  hover:text-blue-700 cursor-pointer" />
           </div>
         </div>
         </section>
