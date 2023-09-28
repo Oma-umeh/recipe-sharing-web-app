@@ -12,10 +12,10 @@ export default function Page({ params }) {
         <Image src={recipe.image} alt={recipe.name} width={300} height={300} className='h-[300px] w-[300px] rounded-md' />
         <p className='text-sm md:text-base'>Category: {recipe.type}</p>
         <ol className='text-sm md:text-base'>Ingredients: {recipe.ingredients.map(ingredient=>(
-          <li>{ingredient}</li>
+          <li key={Math.random}>{ingredient}</li>
         ))}</ol>
         <ul className='text-sm md:text-base'>Instruction: {recipe.instructions.map(instruction=>(
-          <li className='flex items-center space-x-2'>
+          <li key={Math.random} className='flex items-center space-x-2'>
             <BsArrowRight />
             <span>{instruction}</span>
           </li>
